@@ -1,0 +1,96 @@
+*body{
+    padding: 0%;
+    margin: 0%;
+}
+#navbar{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color:rgb(24, 42, 42);
+}
+
+#navbar>div{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(24, 42, 42)
+    linear-gradient(to left, #000 40%, transparent 58%);
+    
+}
+#navbar>div>div>img{
+   height: 60px;
+   width: 150px;
+}
+
+#navbar>div>div{
+    /* border: 1px solid black; */
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+#navbar>div>div>select{
+background-color:rgb(24, 42, 42) ;
+color: white;
+border: none;
+width: 88px;
+}
+div>button{
+    background-color: #0F79AF;
+    padding:  8px 12px 8px 12px;
+    color: white;
+    border-radius: 4px
+}
+#usericon>select{
+    margin-right: 40px;
+    color: white;
+    border:  none;
+    width: 0px;
+    padding:  8px 12px 8px 12px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.sharmajiconatainer{
+  position: relative;
+}
+img+div{
+    font-family: "Amazon Ember";
+    line-height: 19.5px;
+    color: white;
+    margin-top: -590px;
+    margin-left: 150px;
+}
+#white{
+    display: flex;
+}
+#white>div{
+    width: 50%;
+    margin-top: 450px;
+    margin-left: 150px;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,100px);
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: center;
+    gap: 5px;
+}
+#grid>div{
+    background-color:midnightblue;
+    /* height: 200px; */
+    /* border: 1px solid red; */
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#remote{
+    margin-left: 780px;
+    line-height: 35px;
+}
